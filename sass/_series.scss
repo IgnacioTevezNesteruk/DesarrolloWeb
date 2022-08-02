@@ -1,0 +1,17 @@
+@import './extend';
+  .Series {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px 1px;
+      padding: 40px;
+      justify-content: center;
+      align-content: center;
+  }
+
+  .Series img {
+      width: 250px;
+      height: 300px;
+      object-position: 30%;
+  }

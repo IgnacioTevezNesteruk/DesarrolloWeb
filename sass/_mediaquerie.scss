@@ -1,0 +1,43 @@
+@import './extend';
+
+@media screen and (max-width: 1024px) {
+  .peliculas {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .Series {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cuerpo {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .peliculas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Series {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cuerpo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .peliculas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Series {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cuerpo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

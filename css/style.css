@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.frases {
+  color: violet;
+  margin: 20px; }
+
+.cuerpo {
+  font-family: "Anek Malayalam", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  word-spacing: 5px;
+  font-size: 18px;
+  background-image: url(../imagenes/ee21be04ac76392fda51f8b8b6e97e08.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gold;
+  background-color: gray; }
+
+.imagenesportadas {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  object-position: 30%;
+  justify-content: center; }
+
+h1 {
+  font-family: "Dancing Script", cursiva;
+  font-weight: 900;
+  text-align: center;
+  color: gold; }
+
+h2 {
+  font-family: "Dancing Script", cursiva;
+  font-weight: 700;
+  text-align: center;
+  color: white; }
+
+.textoresaltado {
+  color: gold; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.Series {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 1px;
+  padding: 40px;
+  justify-content: center;
+  align-content: center; }
+
+.Series img {
+  width: 250px;
+  height: 300px;
+  object-position: 30%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.peliculas {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 1px;
+  padding: 40px;
+  justify-items: center; }
+
+.peliculas img {
+  width: 250px;
+  height: 300px;
+  object-position: 30%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (max-width: 1024px) {
+  .peliculas {
+    grid-template-columns: repeat(3, 1fr); }
+  .Series {
+    grid-template-columns: repeat(3, 1fr); }
+  .cuerpo {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media screen and (max-width: 768px) {
+  .peliculas {
+    grid-template-columns: repeat(2, 1fr); }
+  .Series {
+    grid-template-columns: repeat(2, 1fr); }
+  .cuerpo {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 320px) {
+  .peliculas {
+    grid-template-columns: repeat(1, 1fr); }
+  .Series {
+    grid-template-columns: repeat(1, 1fr); }
+  .cuerpo {
+    grid-template-columns: repeat(1, 1fr); } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.barranavegacion div a {
+  text-decoration: none;
+  line-height: 1.5;
+  color: gold; }
+
+.barranavegacion {
+  width: fit-content;
+  margin: 10px auto; }
+
+.cabecera {
+  background-color: purple; }
+
+.nav-link {
+  list-style: none;
+  width: fit-content;
+  border: solid 1px gold;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 10px;
+  display: inline-block;
+  background-color: gray; }
+
+.navbar-brand img {
+  width: 70px;
+  height: 70px;
+  object-position: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.final {
+  background-color: purple; }
+  .final__final__redessociales {
+    display: flex;
+    flex-direction: row; }
+  .final__redessociales img {
+    width: 50px;
+    height: 50px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1:hover {
+  transition: transform 10s;
+  transform: rotateY(360deg); }
+
+h2:hover {
+  transition: transform 5s;
+  transform: rotateY(360deg); }
+
+.imagenesportadas:hover {
+  transition: transform 20s;
+  transform: rotateZ(360deg); }
+
+.contacto {
+  margin: 15px;
+  color: purple; }
