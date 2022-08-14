@@ -1,0 +1,45 @@
+@import './extend';
+
+.frases {
+    color: map-get($colores, "color-cuaternario");
+    margin: 20px;
+}
+
+.cuerpo {
+    font-family: "Anek Malayalam", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    word-spacing: 5px;
+    font-size: 18px;
+    background-image: url(../imagenes/ee21be04ac76392fda51f8b8b6e97e08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:map-get($colores ,"color-primario");
+    background-color:map-get($colores , "color-terciario");
+}
+
+.imagenesportadas {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    object-position: 30%;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Dancing Script", cursiva;
+    font-weight: 900;
+    text-align: center;
+    color:map-get($colores ,"color-primario");
+}
+
+h2 {
+    font-family: "Dancing Script", cursiva;
+    font-weight: 700;
+    text-align: center;
+    color:map-get($colores ,"color-quinto");
+}
+.textoresaltado{
+    color:map-get($colores ,"color-primario");
+}

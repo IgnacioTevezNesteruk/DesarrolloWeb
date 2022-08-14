@@ -1,0 +1,15 @@
+@import './extend';
+h1:hover {
+    transition: transform 10s;
+    transform: rotateY(360deg);
+}
+
+h2:hover {
+    transition: transform 5s;
+    transform: rotateY(360deg);
+}
+
+.imagenesportadas:hover {
+    transition: transform 20s;
+    transform: rotateZ(360deg);
+}
